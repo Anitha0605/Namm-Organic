@@ -1,0 +1,118 @@
+.header{
+    background-image: url("https://nammorganic.wpengine.com/wp-content/uploads/2023/02/Newsletter-popup.jpg");
+    width: 100vw;
+    height: 20vw;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   font-weight: 10px;
+}
+.search{
+    border-radius: 2px;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.head{
+    padding-left: 450px;
+    padding-top: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Main{
+    text-align: center;
+    margin-top: 60px;
+   h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #961515;
+}
+h3{
+    color: #55772b ;
+}}
+.col 
+img{
+  border-radius: 50%;
+
+}
+.btn{
+    border-radius: 2px;
+    border: 2px solid black;
+}
+.box{      
+  border: 2px solid black;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
+  font-weight:bold ;
+  margin-left: 20px;
+}
+.footer{
+    background-image: url(https://wallpapers.com/images/hd/plain-green-background-633k91qdsh942pd7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 15vw;
+    text-align: center;
+    padding-top: 50px;
+}
+@media (max-width: 992px) {
+    .header {
+        height: 30vw;
+    }
+    .head {
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    .search {
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .Main h2 {
+        font-size: 18px;
+    }
+    .Main h3 {
+        font-size: 16px;
+    }
+    .box {
+        width: 150px;
+        height: 250px;
+        margin-left: 10px;
+    }
+    .footer {
+        height: 25vw;
+        padding-top: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .header {
+        height: 15vw;
+    }
+    .head {
+        padding-left: 500px;
+        padding-top: 70px;
+        font-size: 24px;
+    }
+    .search {
+        padding-left: 200px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .Main h2 {
+        font-size: 28px;
+    }
+    .Main h3 {
+        font-size: 22px;
+    }
+    .box {
+        width: 250px;
+        height: 350px;
+        margin-left: 30px;
+    }
+    .footer {
+        height: 10vw;
+        padding-top: 60px;
+    }
+}
